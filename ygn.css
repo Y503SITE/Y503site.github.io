@@ -1,0 +1,150 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  color: #5a5a5a;
+}
+
+h3 {
+  line-height: 1.4em;
+}
+
+footer {
+  padding: 28px;
+  background: #eee;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 760px;
+  }
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+.navbar-default .navbar-nav>li>a{
+  border-bottom: 3px solid transparent;
+}
+.navbar-default .navbar-nav>.active>a{
+  color: #c2393d;
+  border-bottom: 3px solid #c2393d;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  color: #c2393d;
+  border-bottom: 3px solid #c2393d;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 480px;
+  margin-bottom: 20px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+.carousel-inner {
+  background-image: url("images/yangon-background.jpg");
+  background-repeat: no-repeat;
+  background-position: left middle;
+}
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 480px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 480px;
+}
+
+.carousel-caption h2 {
+  font-size: 1.8em;
+  line-height: 1.4;
+}
+
+.carousel-caption p {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+.marketing .col-md-3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h4 {
+  font-size: 1.1em;
+  font-weight: normal;
+  line-height: 1.4em;
+}
+.marketing .col-md-3 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+.news .date {
+  background: #c2393d;
+  color: #fff;
+  padding: 6px 10px;
+  font-size: 0.8em;
+}
+.news .title {
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 240;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 768px) {
+
+
+  /* Bump up size of carousel content */
+  .carousel-caption h2 {
+    font-size: 1.8em;
+    line-height: 1.4;
+  }
+
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
