@@ -1,5 +1,10 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
+@import url('http://mmwebfonts.comquas.com/fonts/?font=myanmar3');
+body,textarea,input,html,li,ul,ol,p,div,span,h1,h2,h3,h4,h5,h6,table,tr,td,* {
+  font-family: Myanmar3, Yunghkio !important;
+}
+
 /* Padding below the footer and lighter body text */
 
 body {
